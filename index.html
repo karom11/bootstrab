@@ -17,8 +17,8 @@
   </head>
   <body class="body">
     
-    
-    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark  sticky-top " >
         <div class="container-fluid">
           <a class="navbar-brand" style="border-right: 1px solid #aaaaaa; padding-right: 20px;">
             <img src="p.png"   style="height: 35px; width: 35px; margin-right: 15px;"  alt=""  >
@@ -60,7 +60,7 @@
                 <a class="nav-link" href="#">Abuot</a>
               </li>
             </ul>
-            <form class="d-flex " style="margin-right: 20px;">
+            <form class="d-flex " style="margin-right: 10px;">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-info" type="submit">Search</button>
             </form>
@@ -72,9 +72,10 @@
           </div>
         </div>
       </nav>
+<!--end navbar-->
 
-
-
+<div class="container-fluid p-0">
+<!--carousel-->
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -125,15 +126,15 @@
         </button>
       </div>
 
-      
-      <div class="jumbotron text-light bg-dark ">
+      <!--jumbotron-->
+      <div class="jumbotron text-light bg-dark" style="border-top-left-radius: 0; border-top-left-radius: 0;">
         <h1 class="display-4">welcome</h1>
         <p class="lead">Prppeolkc </p>
-        <hr class="my-4">
+       
         <a class="btn btn-primary btn-lg"> cilek her to see</a>
       </div>
 
-
+    <hr class="my-4">
       <h1 class="text-center">programming language <span class="badge bg-secondary"></span></h1>
 
       
@@ -177,42 +178,266 @@
           </div>
         </div>
       </div>
-      
-
+      <hr class="my-4">
+<!--try python -->
       <h1 class="text-center">python is very easy   <img src="p.png"   style="height: 35px; width: 35px; margin-right: 15px;"  alt=""  >
       </h1>
       <div class="card bg-dark">
       <div class="card-body">
-      <h4 class="text-light">Try the code below from 
+      <h4 class="text-light" >Try the code below from 
       
        <a href="https://www.python.org/shell/" target="_blank" >Here</a> 
       </h4>
+      <div class="btn btn-sm btn-outline-light" onclick="mycopy('mypython')">
+        copy
+      </div>
       <pre>
-        <code class="text-info">
+        <code class="text-info" id="mypython">
          name = input("Enter your name : "); print("Hello " + name ) 
         </code>
       </pre>
       </div>
       </div>
-
+      <hr class="my-4">
+<!--try Ring -->
       <h1 class="text-center">Ring is very easy   <img src="ring.jpg"   style="height: 35px; width: 35px; margin-right: 15px;"  alt=""  >
       </h1>
       <div class="card bg-dark">
       <div class="card-body">
-      <h4 class="text-light">Try the code below from 
+      <h4 class="text-light" >Try the code below from 
       
        <a href="https://tio.run/#ring" target="_blank" >Here</a> 
       </h4>
+      <div class="btn btn-sm btn-outline-light" onclick="mycopy('myring')">
+        copy
+      </div>
       <pre>
-        <code class="text-info">
+        <code class="text-info  " id="myring">
           see 'I love Ring'
           for x in 'a':'z' see x + ', ' next
         </code>
       </pre>
       </div>
       </div>
+    </div>
+
+<div class="fix fix1"></div>
+    <hr class="my-4">
+<!--Basic Rock-->
+<h1 class="text-center">Basic Rock </h1>
+<div class="container-fluid">
+<div class="row justify-content-center" style="background-color: #0f0f0ed1; border-radius: 7px; padding: 20px;">
+
+  <div class="card bg-dark col-lg-3 clo-md-4 col-sm-6 col-xs-12" style="width: 18rem; margin: 7px;">
+    <a href="https://youtu.be/KRiq7Eqfe-Q" target="_blank">
+    <img src="https://i.ytimg.com/vi/KRiq7Eqfe-Q/mqdefault.jpg" class="card-img-top" alt="...">
+  </a>
+    <div class="card-body text-light">
+      <h5 class="card-title">Basic Rock Html</h5>
+      <p class="card-text">Basic Rock html from Zero to hero</p>
+      <a href="http://www.mediafire.com/file/ycg0ecxacj0ohpd/basic-rock-html.pdf/file" class="btn btn-primary" target="_blank">
+        Download the book </a>
+    </div>
+  </div>
 
 
+  <div class="card bg-dark col-lg-3 clo-md-4 col-sm-6 col-xs-12" style="width: 18rem; margin: 7px;">
+    <a href="https://youtu.be/CE4fEEY_Dao" target="_blank">
+    <img src="https://i.ytimg.com/vi/CE4fEEY_Dao/mqdefault.jpg" class="card-img-top" alt="...">
+  </a>
+    <div class="card-body text-light">
+      <h5 class="card-title">Basic Rock CSS</h5>
+      <p class="card-text">Basic Rock CSS from Zero to hero</p>
+      <a href="http://www.mediafire.com/file/ycg0ecxacj0ohpd/basic-rock-html.pdf/file" class="btn btn-primary" target="_blank">
+        Download the book </a>
+    </div>
+  </div>
+
+
+  <div class="card bg-dark col-lg-3 clo-md-4 col-sm-6 col-xs-12" style="width: 18rem; margin: 7px;">
+    <a href="https://youtu.be/1mo782_S1ys" target="_blank">
+    <img src="https://i.ytimg.com/vi/1mo782_S1ys/mqdefault.jpg" class="card-img-top" alt="...">
+  </a>
+    <div class="card-body text-light">
+      <h5 class="card-title">Basic Rock SVG</h5>
+      <p class="card-text">Basic Rock SVG from Zero to hero</p>
+      <a href="http://www.mediafire.com/file/ycg0ecxacj0ohpd/basic-rock-html.pdf/file" class="btn btn-primary" target="_blank">
+        Download the book </a>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="card bg-dark col-lg-3 clo-md-4 col-sm-6 col-xs-12" style="width: 18rem; margin: 7px;">
+    <a href="https://youtu.be/MxYLqE3Ils8" target="_blank">
+    <img src="https://i.ytimg.com/vi/MxYLqE3Ils8/mqdefault.jpg" class="card-img-top" alt="...">
+  </a>
+    <div class="card-body text-light">
+      <h5 class="card-title">Basic Rock python</h5>
+      <p class="card-text">Basic Rock python from Zero to hero</p>
+      <a href="http://www.mediafire.com/file/ycg0ecxacj0ohpd/basic-rock-html.pdf/file" class="btn btn-primary" target="_blank">
+        Download the book </a>
+    </div>
+  </div>
+
+
+  <div class="card bg-dark col-lg-3 clo-md-4 col-sm-6 col-xs-12" style="width: 18rem; margin: 7px;">
+    <a href="https://youtu.be/rOwOEFTVvg0" target="_blank">
+    <img src="https://i.ytimg.com/vi/rOwOEFTVvg0/mqdefault.jpg" class="card-img-top" alt="...">
+  </a>
+    <div class="card-body text-light">
+      <h5 class="card-title">Basic Rock python</h5>
+      <p class="card-text">Basic Rock python from Zero to hero</p>
+      <a href="http://www.mediafire.com/file/ycg0ecxacj0ohpd/basic-rock-html.pdf/file" class="btn btn-primary" target="_blank">
+        Download the book </a>
+    </div>
+  </div>
+
+
+
+
+</div>
+</div>
+
+<div class="fix fix2"></div>
+<hr class="my-4">
+<!--thnaks-->
+<div class="container-fluid">
+  <div class="row justify-content-center">
+
+
+    <div class="card" style="width: 18rem; margin: 10px;">
+      <img src="f.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"> الوالد القائد </p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem; margin: 10px;">
+      <img src="IMG_0822.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">  عائلتي السريع </p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem; margin: 10px;">
+      <img src="m.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"> MR.Mahmoud Ahmed</p>
+      </div>
+    </div>
+    
+    <div class="card" style="width: 18rem; margin: 10px;">
+      <img src="" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">الاستاذ خالد الصيفي </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<hr class="my-4">
+<!--joen us -->
+<h1 class="text-center">join us</h1>
+<div class="container-fluid">
+  <div class="row justify-content-center">
+
+    <div class="card bg-dark" style="width: 18rem; margin: 10px;>">
+      <div class="card-body text-light">
+        <h5 class="card-title">subscribe Naw
+          <img src="y.png" class="myicon" alt="">
+        </h5>
+        <a href="https://www.youtube.com/user/HassounaAcademy" class="card-link">Go to link</a>
+      </div>
+    </div>
+
+
+    <div class="card bg-dark" style="width: 18rem; margin: 10px;>">
+      <div class="card-body text-light">
+        <h5 class="card-title">subscribe Naw
+          <img src="t.png" class="myicon" alt="">
+        </h5>
+        <a href="https://www.youtube.com/user/HassounaAcademy" class="card-link">Go to link</a>
+      </div>
+    </div>
+
+
+    <div class="card bg-dark" style="width: 18rem; margin: 10px;>">
+      <div class="card-body text-light">
+        <h5 class="card-title">subscribe Naw
+          <img src="f.jpg" class="myicon" alt="">
+        </h5>
+        <a href="https://www.youtube.com/user/HassounaAcademy" class="card-link">Go to link</a>
+      </div>
+    </div>
+
+
+    <div class="card bg-dark" style="width: 18rem; margin: 10px;>">
+      <div class="card-body text-light">
+        <h5 class="card-title">subscribe Naw
+          <img src="n.png" class="myicon" alt="">
+        </h5>
+        <a href="https://www.youtube.com/user/HassounaAcademy" class="card-link">Go to link</a>
+      </div>
+    </div>
+
+
+
+
+  </div>
+</div>
+
+<footer class="bg-dark text-light">
+
+<div class="container-fluid">
+<div class="row text-center">
+
+<div class="col-md-4">
+  <hr class="border-top my-3">
+  <h5><img src="p.png" class="myicon"> Important Links </h5>
+  <hr class="border-top my-3">
+  <p> Tel : 4444-4432-232</p>
+  <p>Adrees: madenh , KSA</p>
+  <p>FAX : 333-344-555</p>
+
+
+</div>
+
+<div class="col-md-4">
+  <hr class="border-top my-3">
+  <h5><img src="p.png" class="myicon"> vision</h5>
+  <hr class="border-top my-3">
+  <p> Tel : 4444-4432-232</p>
+  <p>Adrees: madenh , KSA</p>
+  <p>FAX : 333-344-555</p>
+
+
+</div>
+
+
+
+<div class="col-md-4">
+  <hr class="border-top my-3">
+  <h5><img src="p.png" class="myicon"> vision</h5>
+  <hr class="border-top my-3">
+  <p> Tel : 4444-4432-232</p>
+  <p>Adrees: madenh , KSA</p>
+  <p>FAX : 333-344-555</p>
+
+
+</div>
+
+</div>
+</div>
+
+
+
+
+
+</footer>
 
 
 
@@ -234,5 +459,27 @@
     <script src="js/jquery-3.5.1.slim.min.js" ></script>
     <script src="js/popper.min.js" ></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+
+      $(function() {
+
+        $('[data-toggle="popover"]').popover()
+
+
+      })
+    </script>
+    <script>
+      function mycopy(name){
+        var range = document.createRange();
+        range.selectNode(document.getElementById(name));
+        window.getSelection().removeAllRanges(); 
+        window.getSelection().addRange(range);
+        document.execCommand("copy");
+        window.getSelection().removeAllRanges();
+
+      }
+
+
+    </script>
   </body>
 </html>

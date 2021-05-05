@@ -12,6 +12,11 @@ code{
 
     font-size: 135% !important;
 }
+.navbar{
+background-color: #232930eb  !important;
+
+}
+
 
 
 .carousel-inner img{
@@ -38,5 +43,40 @@ border-radius: 7px;
 
     margin-left: 760px;
 
+
+}
+
+.myicon{
+
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+
+footer{
+
+margin-top: 50px;
+padding: 10px;
+padding-bottom: 70px;
+margin-bottom: -25px;
+
+}
+
+.fix{
+
+background-attachment: fixed;
+background-size: cover;
+height: 250px;
+
+}
+
+.fix1{
+background-image: url(fa.jpg);
+
+}
+
+
+.fix2{
+    background-image: url(fa1.jpg);
 
 }
